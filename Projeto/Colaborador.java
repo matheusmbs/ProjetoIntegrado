@@ -37,13 +37,12 @@ public class Colaborador {
    public int getRa(){
       return ra;
    }
-   public void setRa (int ra){
-      // Validador de RA
-      while (ra == getRa()){
-         JOptionPane.showMessageDialog(null, "RA já Cadastrado, porfavor tente novamente");
+   public void setRa (int r){
+      if (r == this.ra){
+         JOptionPane.showMessageDialog(null, "Ra já cadastrado");
       }
+      else
       this.ra = ra;
-      
    }
    public String getNome(){
       return nome;

@@ -13,16 +13,17 @@ public class TesteColaborador {
       ConexaoBD bd = new ConexaoBD();
       conn = bd.conectar();
       
+        
          colaborador = new Colaborador();
-         colaborador.setRa(816114937);
-         colaborador.setNome("Matheus");
+         colaborador.setRa(8161143);
+         colaborador.setNome("Ivaldo");
          colaborador.setSobrenome("Moura Borges");
-         colaborador.setDataNascimento((Date)formatter.parse("19/04/1997"));
+         colaborador.setDataNascimento((Date)formatter.parse("19/04/1974"));
          colaborador.setTelefone("1143038711");
          colaborador.setSexo("m");
-         colaborador.setSenha("12345");
+         colaborador.setSenha("123456");
          colaborador.incluir(conn);
-         
+ 
 
       }
       
