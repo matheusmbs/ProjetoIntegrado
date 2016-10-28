@@ -37,8 +37,8 @@ public class Colaborador {
    public int getRa(){
       return ra;
    }
-   public void setRa (int r){
-      if (r == this.ra){
+   public void setRa (int ra){
+      if (ra == this.ra){
          JOptionPane.showMessageDialog(null, "Ra já cadastrado");
       }
       else
